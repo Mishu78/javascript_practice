@@ -40,4 +40,13 @@ while(num5<=10){
     num5++;
 }
 
+let num6=1;
+while(num6 <= 10){
+    console.log("num6:",num6);
+    if(num6%2===0){
+        console.log("even number:",num6)
+    }
+    num6++;
+}
+
 
