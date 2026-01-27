@@ -8,19 +8,36 @@
 //  console.log(i);
 // }
 
-// const num1=0;
-// while(num1<5){
-//     console.log('looooooping',num1);
-//     num=num+1;
-// }
+let num1=0;
+while(num1<5){
+   console.log('looooooping num1',num1);
+   num1=num1+1;
+ }
+ 
 
 let num2=1;
 while(num2 <= 10){
-    console.log(num2);
+    console.log("num2:",num2);
     num2++;
 }
-let num3=1;
+let num3=50;
 while(num3<=100){
-    console.log(num3);
+    console.log("num3",num3);
     num3++;
 }
+
+let num4=1;
+while(num4 <= 20 ){
+    console.log("num4",num4);
+    num4++;
+}
+let num5=1;
+let sum=0;
+while(num5<=10){
+    console.log("num5",num5);
+    sum=sum+num5;
+    console.log("sum:",sum);
+    num5++;
+}
+
+
