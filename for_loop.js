@@ -8,6 +8,7 @@
 //  console.log(i);
 // }
 
+//.................while loop...............
 let num1=0;
 while(num1<5){
    console.log('looooooping num1',num1);
@@ -47,6 +48,31 @@ while(num6 <= 10){
         console.log("even number:",num6)
     }
     num6++;
+}
+
+//...................for loop.........................
+
+
+for(let num7=1; num7<=10;num7++){
+    console.log("num7",num7);
+}
+
+for(let i=0;i<=10;i++){
+    if(i%2===0){
+     console.log("even numbers:",i);
+    }
+   
+}
+
+for(let num8=0;num8<=20;num8=num8+2){
+     console.log("even numbers are:",num8);  
+}
+
+
+for(let itr=0;itr<=10;itr++){
+   if(itr%2===1){
+   console.log("odd numbers:",itr);   
+}
 }
 
 
