@@ -21,3 +21,10 @@ for(let i=61;i<=100;i++){
     }
 }
 
+let n=61;
+while(n<=100){
+    if(n%2===1){
+        console.log("odd number is by while loop:",n);
+    }
+    n++;
+}
