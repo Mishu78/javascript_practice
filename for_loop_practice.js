@@ -8,7 +8,7 @@ for(let i=11;i<=20;i++){
 
 let num=10;
 while(num>=0){
-    console.log(num);
+    console.log("reverse form:",num);
     num--;
 }
 
@@ -16,7 +16,7 @@ while(num>=0){
 
 for(let i=0;i<20;i++){
     if(i%2!==0){
-        console.log(i);
+        console.log("odd number:",i);
     }
 }
 
@@ -24,6 +24,14 @@ for(let i=0;i<20;i++){
 
 for(let i=1;i<=30;i++){
     if(i%5==0){
-        console.log(i);
+        console.log("divisble by 5:",i);
     }
 }
+//sum of number from 1-20 divisible by 3
+let sum1=0;
+for(let i=0;i<=20;i++){
+    if(i%3===0){
+       sum1 = sum1+i;
+    }
+}
+ console.log("numbers sum is:",sum1);
