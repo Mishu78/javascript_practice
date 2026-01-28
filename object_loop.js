@@ -18,3 +18,4 @@ const keys=Object.keys(mobile);
 for(const key of keys){
 console.log(key, ':' , mobile[key]);
 }
+
