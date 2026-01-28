@@ -70,3 +70,7 @@ console.log(rev);
 //way-three
 const reversed=sentence.split(``).reverse().join(``);
 console.log(reversed);
+
+
+
+
