@@ -40,3 +40,11 @@ const realFriend =["rahim","karim","fahim","sahim","lam" ];
 console.log(realFriend.join());
 console.log(realFriend.join(`|`));
 console.log(realFriend.join(`-`));
+
+const first="Meherun Nesa";
+const last="Mishu";
+const fullName=first + " " +last;
+console.log(fullName);
+const fullName2=first.concat(` `).concat(last);
+console.log(fullName2);
+console.log(last.includes('x'));
