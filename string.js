@@ -48,3 +48,25 @@ console.log(fullName);
 const fullName2=first.concat(` `).concat(last);
 console.log(fullName2);
 console.log(last.includes('x'));
+
+//reverse sentence
+
+//one way
+let reverse=``
+const sentence ="I am learning web dev";
+for(const letter of sentence){
+    reverse = letter + reverse;   
+}
+console.log(reverse);
+//way-two
+let rev=``
+for(let i=0;i<sentence.length;i++){
+    console.log(i);
+    console.log(sentence[i]);
+    const letter=sentence[i];
+    rev=letter+rev;
+}
+console.log(rev);
+//way-three
+const reversed=sentence.split(``).reverse().join(``);
+console.log(reversed);
