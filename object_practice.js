@@ -57,3 +57,46 @@ isStudent: true
 for(let keys in myObject){
     console.log(keys , ':' , myObject[keys] , '|', "type:", typeof(myObject[keys]));
 }
+
+//Count how many times a string has the letter a
+
+let myName="mahajabin KhannA";
+let count1=0;
+for(let char of myName){
+    if(char === 'a'){
+        count1++;
+    }
+   
+}
+ console.log(count1);
+
+ //Count how many times a string has the letter a or A
+let count2=0;
+ for(let char1 of myName){
+    if(char1 === 'a' || char1==='A'){
+        count2++;
+    }
+ }
+ console.log(count2);
+
+ //Check whether a string contains all the vowels a, e, i, o, u
+ let string="I am learning web development"
+let vowel=['a','e','i','o','u'];
+    if(string.toLowerCase().includes('a'))
+    {
+        if(string.toLowerCase().includes('e')){
+            if(string.toLowerCase().includes('i')){
+                if(string.toLowerCase().includes('o')){
+                    if(string.toLowerCase().includes('u')){
+                        console.log("this string contains all the vowel");
+                    }
+                }
+            }
+        }
+    }
+    else{
+        console.log("doesn't contain all the vowel");
+}
+
+
+ 
