@@ -43,3 +43,24 @@ difference(43,34);
 const fatherAge=40;
 const myAge=10;
 difference(fatherAge,myAge);
+
+/*return*/
+function tenTimes(number){
+    const result=number*10;
+    return result;
+}
+
+
+function cutHalf(number){
+const half=number/2;
+return half;
+
+}
+
+const output=tenTimes(500);
+console.log(output);
+
+const output2=cutHalf(10);
+console.log(output2);
+
+
