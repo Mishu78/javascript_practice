@@ -50,7 +50,6 @@ function tenTimes(number){
     return result;
 }
 
-
 function cutHalf(number){
 const half=number/2;
 return half;
@@ -58,9 +57,45 @@ return half;
 }
 
 const output=tenTimes(500);
-console.log(output);
+console.log("output",output);
 
 const output2=cutHalf(10);
 console.log(output2);
 
+function add2(price1,price2){
+    const total=price1+price2;
+return total;
+}
+const bill=add2(20,40);
+console.log(bill);
 
+function doMath(num1,num2){
+    const sum=num1+num2;
+    const diff=num1-num2;
+    const multiply=sum*diff;
+    const result=multiply/2;
+    return result;
+}
+const result=doMath(10,5);
+console.log(result);
+
+function isEven(number){
+    if(number%2===0){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(isEven(5));
+console.log(isEven(100));
+
+function isOdd(number){
+     if(number%2===1){
+        return true;
+    }
+        return false;
+}
+
+console.log(isOdd(5));
+console.log(isOdd(100));
