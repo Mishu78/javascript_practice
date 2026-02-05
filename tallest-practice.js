@@ -11,3 +11,16 @@ console.log(number);
 }
 const max=getMax(heights);
 console.log("max value is",max); 
+
+
+function getMin(numbers){
+    let min=numbers[0];
+    for(const number of numbers){
+        if(number<min){
+            min=number;
+        }
+    }
+    return min;
+}
+const min = getMin(heights);
+console.log("min number is",min);
