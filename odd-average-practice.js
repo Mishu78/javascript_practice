@@ -1,21 +1,21 @@
 /*function takes an array as parameter give me the average of the odd numbers in the array*/ 
 function oddAvrg(numbers){
-    let sum=0;
-    const odds=[]
+    
+    const odds=[];
 for(const number of numbers){
     if(number%2===1){
-        odds_array=odds.push(numbers);
-        console.log("odd numbers",odds_array);
-    }
-    else{
-        console.log("even numbers",number);
+        odds.push(number);
+        
     }
 }
-for(const odds of numbers){
-    const count=odds.length;
+//console.log("odd numbers",odds);
+let sum=0;
+for(const number of odds){    
 sum=sum+number;
-const avg=sum/count;
 }
+const count=odds.length;
+console.log(sum,count);
+const avg=sum/count;
 return avg;
 }
 const odd_num=[12,13,15,11,2,5,56,44,33,35,91,38,7]
