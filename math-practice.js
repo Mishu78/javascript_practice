@@ -3,7 +3,8 @@ console.log(min);
 console.log(Math.PI);
 console.log(Math.abs(-30));
 console.log(Math.abs(4-3.34));
-console.log(Math.round(4.2));
-console.log(Math.floor(4.2));
-console.log(Math.ceil(4.2));
+console.log(Math.round(4.5));
+console.log(Math.floor(4.5));
+console.log(Math.ceil(4.5));
 console.log(Math.random()*10);
+
