@@ -43,3 +43,5 @@ else{
 }
 const max4 = maxOfThree(59,58,56);
 console.log("The boss is who have the highest mark:",max4);
+const max=Math.max(23,56,12,90,56,78,100,123,45,324,56);
+console.log(max);
