@@ -18,4 +18,6 @@ function getCheapestPhone(mobiles){
     return min;
 }
 const cheap=getCheapestPhone(mobiles);
-console.log("cheapest phone is",cheap);
+console.log("cheapest phone price is",cheap);
+
+ 
