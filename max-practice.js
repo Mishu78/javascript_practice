@@ -30,15 +30,18 @@ else{
     console.log('mim is the boss');
 }
 
-function maxOfThree(num1,num2,num3){
+function maxOfThree(jim,sim,mim){
 if(jim>sim && jim>mim){
+    return jim;
     console.log('jim is the ultimate boss');
 }
 else if(sim>jim && sim>mim){
+    return sim;
     console.log('sim is the boss');
 }
 else{
-    console.log('mim is the boss');
+    return mim;
 }
 }
-const 
+const max4 = maxOfThree(53,58,56);
+console.log("The boss is who have the highest mark:",max4);
