@@ -14,3 +14,5 @@ function noDuplicate(array){
 const uniqueArray=noDuplicate(numbers);
 console.log(uniqueArray);
 
+
+
