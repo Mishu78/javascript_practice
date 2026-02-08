@@ -12,6 +12,9 @@ function gonoVote(array) {
         else if(vote==="na"){
             naCount++;
         }
+        else{
+            console.warn(`Invalid vote:"${vote}"`);
+        }
     }
 
     if(haCount>naCount){
@@ -24,5 +27,5 @@ function gonoVote(array) {
         return false;
     }
 }
-const vote=gonoVote(["ha","na","na"]);
+const vote=gonoVote(["ha","na","ha"]);
 console.log(vote);
