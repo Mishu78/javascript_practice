@@ -5,11 +5,11 @@ function gonoVote(array) {
     }
     let haCount=0;
     let naCount=0;
-    for(let vote of array){
-        if(vote==="ha"){
+    for(let voteCount of array){
+        if(voteCount==="ha"){
       haCount++;
         }
-        else if(vote==="na"){
+        else if(voteCount==="na"){
             naCount++;
         }
         else{
