@@ -1,0 +1,28 @@
+.eating{
+    border:1px solid tomato;
+    margin:30px;
+    padding:40px;
+    width:220px;
+}
+.eating-section{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+[data-aos="my-animation"]{
+    opacity:0;
+    transform:rotate(-90deg) scale(0.5);
+    transition: 1s;
+}
+
+[data-aos="my-animation"].aos-animate{
+    opacity:1;
+    transform:translateY(0);
+}
+
+
+@media screen and (max-width:576px) {
+   .eating-section{
+    display: flex;
+    flex-direction: column;
+   } 
+}
